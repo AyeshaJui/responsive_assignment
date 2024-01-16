@@ -161,9 +161,79 @@ body {
   height: 550px;
 }
 
+/* Start Choose Your Destination section */
 
+.choose-your-destination-section {
+  width: 81.25%;
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 100px;
+}
 
+.destination-section-text h4 {
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
 
+.destination-section-text p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.destination-section-img {
+  display: grid;
+  grid-template-areas:
+    "box1 box1 box1 box1 box1 box1 box2 box2 box2 box2 box2 box2"
+    "box3 box3 box3 box3 box4 box4 box4 box4 box4 box5 box5 box5"
+    "box6 box6 box6 box6 box6 box7 box7 box7 box7 box7 box7 box7";
+  gap: 24px;
+  justify-content: center;
+}
+.destination-section-img img {
+  width: 100%;
+}
+.box1 {
+  width: 573px;
+  /* height: 300px; */
+  grid-area: box1;
+}
+
+.box2 {
+  width: 573px;
+  /* height: 300px; */
+  grid-area: box2;
+}
+.box3 {
+  width: 374px;
+  /* height: 286px; */
+  grid-area: box3;
+}
+.box4 {
+  width: 474px;
+  /* height: 286px; */
+  grid-area: box4;
+}
+.box5 {
+  width: 276px;
+  grid-area: box5;
+}
+.box6 {
+  width: 473px;
+  /* height: 300px; */
+  grid-area: box6;
+}
+.box7 {
+  width: 673px;
+  /* height: 300px; */
+  grid-area: box7;
+}
 
 /* Responsive media query */
 
@@ -264,6 +334,95 @@ body {
     justify-content: center;
     padding: 10px;
   }
+
+
+
+
+/* Destination section start */
+
+.choose-your-destination-section {
+  width: 90%;
+  margin: auto;
+  margin-top: 28rem;
+}
+
+.destination-section-text h4 {
+  font-size: 20px;
+}
+
+.destination-section-text p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+
+.destination-section-img {
+  display: grid;
+  grid-template-areas: 
+  "box1"
+  "box2"
+  "box3"
+  "box4"
+  "box5"
+  "box6"
+  "box7";
+  gap: 16px;
+  margin-top: 16px;
+}
+.destination-section-img img {
+  width: 100%;
+  height: 100%;
+  
+}
+.box1 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box1;
+}
+
+.box2 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box2;
+}
+.box3 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box3;
+}
+.box4 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box4;
+}
+.box5 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box5;
+}
+.box6 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box6;
+}
+.box7 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* medium devices */
@@ -308,7 +467,9 @@ body {
     height: 50px;
     margin-bottom: 20px;
   }
-/* popular section start */
+
+  /* popular section start */
+
   .popular-tour-section {
     width: 80%;
     display: flex;
@@ -317,9 +478,9 @@ body {
     margin: auto;
     margin-top: 24px;
   }
-  .popular-tour-section-div {
+  /* .popular-tour-section-div {
     width: 442px;
-  }
+  } */
 
   .popular-tour-section-div h4 {
     font-size: 20px;
@@ -351,8 +512,8 @@ body {
   }
 
   .popular-tour-section-img {
-    width: 488px;
-    height: 342px;
+    width: 100%;
+    margin-left: 5rem
   }
   .popular-tour-section-img img {
     width: 80%;
@@ -362,6 +523,86 @@ body {
     justify-content: center;
     padding: 10px;
   }
+
+/* Destination section start */
+
+.choose-your-destination-section {
+  width: 90%;
+  margin: auto;
+  margin-top: 28rem;
+}
+
+.destination-section-text h4 {
+  font-size: 20px;
+}
+
+.destination-section-text p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+
+.destination-section-img {
+  display: grid;
+  grid-template-areas: 
+  "box1"
+  "box2"
+  "box3"
+  "box4"
+  "box5"
+  "box6"
+  "box7";
+  gap: 16px;
+  margin-top: 16px;
+}
+.destination-section-img img {
+  width: 100%;
+  height: 100%;
+  
+}
+.box1 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box1;
+}
+
+.box2 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box2;
+}
+.box3 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box3;
+}
+.box4 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box4;
+}
+.box5 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box5;
+}
+.box6 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box6;
+}
+.box7 {
+  width: 335px;
+  height: 176px; 
+  grid-area: box7;
+}
+
+
+
+
+
+
 
 
 
