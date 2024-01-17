@@ -11,6 +11,51 @@ body {
   height: 6940px;
 }
 
+/* start nav */
+
+.nav-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.nav-logo{
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.home{
+  color: #FF5400;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+
+
+
+
 /* Start Header Section */
 
 .header {
