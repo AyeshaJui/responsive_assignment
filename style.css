@@ -3,12 +3,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Mulish", sans-serif;
-height: 6940px; 
-  }
+  height: 6940px;
+}
 
 /* Start Header Section */
 
@@ -25,7 +26,7 @@ height: 6940px;
   border-radius: 16px;
   max-width: 1170px;
   margin: auto;
-  margin-top: 146px;
+  margin-top: 50px;
 }
 
 .banner-text {
@@ -99,6 +100,7 @@ height: 6940px;
 }
 
 /* Popular tour section start */
+
 .popular-tour-section {
   width: 81.25%;
   height: 550px;
@@ -111,7 +113,7 @@ height: 6940px;
 
 .popular-tour-section-div {
   width: 55%;
-  height: 6940px;
+  /* height: 6940px; */
 }
 
 .popular-tour-section-div h4 {
@@ -176,13 +178,14 @@ height: 6940px;
   font-family: Mulish;
   font-size: 40px;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .destination-section-text p {
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 50px;
@@ -199,26 +202,23 @@ height: 6940px;
 }
 .destination-section-img img {
   width: 100%;
+  height: 100%;
 }
 .box1 {
   width: 573px;
-  /* height: 300px; */
   grid-area: box1;
 }
 
 .box2 {
   width: 573px;
-  /* height: 300px; */
   grid-area: box2;
 }
 .box3 {
   width: 374px;
-  /* height: 286px; */
   grid-area: box3;
 }
 .box4 {
   width: 474px;
-  /* height: 286px; */
   grid-area: box4;
 }
 .box5 {
@@ -227,12 +227,10 @@ height: 6940px;
 }
 .box6 {
   width: 473px;
-  /* height: 300px; */
   grid-area: box6;
 }
 .box7 {
   width: 673px;
-  /* height: 300px; */
   grid-area: box7;
 }
 
@@ -245,14 +243,14 @@ height: 6940px;
   margin-top: 100px;
 }
 
-.why-choose-us-text h4 {
+.choose-us-text-h4 {
   text-align: center;
   font-family: Mulish;
   font-size: 40px;
   font-weight: 800;
 }
 
-.why-choose-us-text p {
+.choose-us-text-p {
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
@@ -264,37 +262,37 @@ height: 6940px;
 
 .choose-us-card {
   display: flex;
-  gap: 24px;
-  margin-top: 48px;
+  justify-content: center;
+  gap: 4%;
+  row-gap: 4%;
+  row-gap: 4.8rem;
+  flex-wrap: wrap;
+  margin-top: 4.8rem;
 }
 
 .hotel-div {
-  width: 573px;
-  height: 284px;
+  width: 48%;
+  padding: 3rem 3.2rem 40px;
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
-  padding: 32px;
 }
 
 .map-div {
-  width: 573px;
-  height: 284px;
+  width: 48%;
+  padding: 3rem 3.2rem 40px;
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
-  padding: 32px;
 }
 
 .price-tag-div {
-  width: 573px;
-  height: 284px;
+  width: 48%;
+  padding: 3rem 3.2rem 40px;
   border-radius: 16px;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
   margin: auto;
-  margin-top: 24px;
-  padding: 32px;
 }
 
 .design {
@@ -317,33 +315,37 @@ height: 6940px;
 /* newsletter section start */
 
 .newsletter-section {
-  width: 81.25%;
-  max-width: 1170px;
-  margin: auto;
-  margin-top: 80px;
-  align-items: center;
+
 }
 
 .parent {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   gap: 24px;
+  width: 81.25%;
+  max-width: 1170px;
+  margin: 100px auto;
 }
 
 .parent .left-div {
-  width: 480px;
-  height: 340px;
+  width: 40%;
+  height: 32rem;
   border-radius: 16px;
   border: 1px solid #ff5400;
-  padding: 40px;
+ 
 }
+
+.left-div form{
+  padding: 2.5rem;
+}
+
 
 .left-div h4 {
   color: #131318;
   font-family: Mulish;
   font-size: 24px;
   font-weight: 800;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .left-div p {
@@ -352,26 +354,27 @@ height: 6940px;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .left-div hr {
   background-color: rgba(19, 19, 24, 0.1);
-  margin-bottom: 24px;
+  margin-bottom: 1rem;
 }
 
 .left-div input {
-  width: 393px;
+  width: 100%;
   border-radius: 8px;
   background-color: rgba(19, 19, 24, 0.05);
   padding: 1rem;
   border: none;
   outline: none;
+  padding: 1.6rem 2rem;
+  margin-bottom: 1.6rem;
 }
 
 .left-div button {
-  width: 422px;
-  height: 52px;
+  width: 100%;
   border-radius: 8px;
   background-color: #ff5400;
   color: #fff;
@@ -379,16 +382,24 @@ height: 6940px;
   font-size: 20px;
   font-weight: 800;
   border: none;
+  padding: 15px 35px;
+  margin-top: 1rem;
 }
 
 .parent .right-div {
-  width: 672px;
-  height: 300px;
+  width: 60%;
+  position: relative;
 }
 
+.right-div img{
+  width: 100%;
+  height: 32rem;
+}
+
+
 .right-div .travel {
-  width: 312px;
-  height: 100px;
+  width: 20rem;
+  height: 8rem;
   transform: rotate(-23.728deg);
   border-radius: 16px;
   background: #ff5400;
@@ -397,7 +408,7 @@ height: 6940px;
 }
 .travel {
   position: relative;
-  top: -11rem;
+  top: -12rem;
   right: -22rem;
 }
 
@@ -419,15 +430,22 @@ height: 6940px;
 
 /* start footer section */
 
-.footer {
-  width: 100%;
-  height: 502px;
+footer{
   background-color: rgba(19, 19, 24, 0.05);
-  text-align: center;
-  margin-top: 100px;
+}
+
+.footer-div {
+  width: 81.25%;
+  max-width: 1170px;
+  margin: auto;
+  
 }
 
 .footer-section {
+  width: 72%;
+  margin: auto;
+  text-align: center;
+  padding: 4rem 0;
 }
 
 .hero-travel {
@@ -642,94 +660,147 @@ height: 6940px;
     grid-area: box7;
   }
 
-  /* why choose us section */
+  
+  /* start why choose us */
+
   .why-choose-us {
     width: 90%;
-    height: 100%;
     margin: auto;
-    margin-top: 24px;
+    margin-top: 50px;
   }
 
-  .why-choose-us-text h4 {
-    font-size: 20px;
+
+  .choose-us-text-h4 {
+    width: 90%;
+    margin-bottom: 1.6rem; 
   }
 
-  why-choose-us-text p {
-    font-size: 14px;
-    line-height: 24px;
+  .choose-us-text-p {
+    width: 90%;
+    margin-bottom: 1.6rem; 
   }
 
   .choose-us-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
-    margin-top: 16px;
+    align-items: center;
+    gap: 2rem;
+
   }
 
   .hotel-div {
-    width: 268px;
-    height: 278px;
+    width: 100%;
   }
 
   .map-div {
-    width: 268px;
-    height: 278px;
+    width: 100%;
   }
 
   .price-tag-div {
-    width: 268px;
-    height: 278px;
-    margin-top: 16px;
+    width: 100%;
   }
 
-  .design {
-    font-size: 20px;
+
+  /* newsletter section start */
+
+  .newsletter-section {
+
   }
 
-  .p-design {
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    flex-direction: column;
+    margin: 2.5rem auto;
+  }
+
+  .parent .left-div {
+    width: 100%;
+  
+  }
+
+
+  .parent .right-div {
+    width: 100%;
+
+  }
+
+  .right-div img{
+    width: 100%;
+    height: 32rem;
+  }
+
+
+  .right-div .travel {
+    width: 15.5rem;
+    height: 8rem;
+    padding: 1.5rem 2rem;
+    transform: rotate(-23.728deg);
+    
+  }
+  .travel {
+    position: relative;
+    top: -11rem;
+    right: -5rem;
+    
+  }
+
+  .travel h5 {
+    width: 100%;
+  }
+
+  .travel h2 {
+    font-size: 22px; 
+  }
+
+
+  /* start footer section */
+
+  .footer-div {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+  }
+
+
+
+
+  .footer-section p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 22px;
+  }
+
+  .footer-section a img {
+    width: 40px;
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 10px;
+  }
+
+  .footer-hr {
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 
   
-/* newsletter section start */
-
-.newsletter-section {
-  width: 90%;
-  margin: auto;
-  margin-top: 40px;
-  align-items: center;
-}
-
-.parent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.parent .left-div {
-  width: 480px;
-  height: 340px;
-  border-radius: 16px;
-  border: 1px solid #ff5400;
-  padding: 40px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /* medium devices */
@@ -785,9 +856,6 @@ height: 6940px;
     margin: auto;
     margin-top: 24px;
   }
-  /* .popular-tour-section-div {
-    width: 442px;
-  } */
 
   .popular-tour-section-div h4 {
     font-size: 20px;
@@ -939,25 +1007,5 @@ height: 6940px;
     justify-content: center;
   }
 
-  /* 
-.hotel-div {
-  width: 268px;
-  height: 278px; 
-}
-
-.map-div {
-  width: 268px;
-  height: 278px; 
-}
-
-
-
-.design {
-font-size: 20px; 
-}
-
-.p-design {
-font-size: 14px;
-line-height: 24px; 
-} */
+  
 }
